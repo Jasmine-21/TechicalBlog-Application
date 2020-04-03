@@ -21,9 +21,9 @@ public class HomeController {
         @RequestMapping("/posts")
         public String getAllPosts(Model model){
 
-            List<Post> list = postService.getAllPosts();
+            List<Post> posts = postService.getAllPosts();
 
-            model.addAttribute("posts",list);
+            model.addAttribute("posts",posts);
 
             return "index";
         }

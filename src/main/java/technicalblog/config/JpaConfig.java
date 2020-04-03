@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import technicalblog.config.EntityManagerFactory;
+//import technicalblog.config.EntityManagerFactory;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
