@@ -1,9 +1,14 @@
 package technicalblog.model;
 
-import java.util.Date;
+import com.sun.javafx.beans.IDProperty;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import java.util.Date;
+@Entity
 public class Post {
 
+    @Id
     private Integer id;
 
     private String title;

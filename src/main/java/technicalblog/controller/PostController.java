@@ -13,12 +13,12 @@ import java.util.List;
 public class PostController {
     @Autowired
     private PostService postService;
-    @RequestMapping("posts")
+    @RequestMapping("/posts1")
     public String getUserPosts(Model model)
     {
         List<Post> posts=postService.getAllPosts();
         model.addAttribute("posts",posts);
-        return "posts";
+        return "index";
     }
 
 }
